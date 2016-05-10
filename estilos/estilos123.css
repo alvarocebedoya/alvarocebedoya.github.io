@@ -1,0 +1,224 @@
+*{
+	border:0;
+	margin:0;
+	padding:0;  
+}
+
+body{
+	background: #38B0E4;
+}
+
+#contenedor{
+	height: 1050px;
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header, #banner, #noticias, #tienda, #marcas{
+
+	background:  #F53DD9;
+	width: 780px;
+	height: 110px;
+
+}
+
+header p{
+	color: #f1f1f1;
+	font-family: arial;
+	font-size: 1.3em;
+	padding: 1.3px;
+}
+nav p :hover{
+	color: #fff;
+	font-family: arial;
+	font-size: 1.2em;
+	background: #000;
+	padding: 2px 5px;
+	border-radius: 2px 0px 2px 0px;
+	border:1px dashed #991512;
+}
+header{
+	width: 750px;
+	height: 110px;
+	padding: 7px 15px;
+}
+
+header h1{
+	background: #ccc;
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+header h2{
+	color: #fff;
+	font-family: arial;
+	font-size: 1.1em;
+	padding: 5px;
+}
+
+header h3{
+	color: #F53DD9;
+	font-family: arial;
+	font-size: 0.6em;
+	padding: 2px;
+}
+header h4{
+	color: #F53DD9;
+	font-family: arial;
+	font-size: 0.6em;
+	padding: 2px;
+}
+header h5{
+	color: #F53DD9;
+	font-family: arial;
+	font-size: 0.6em;
+	padding: 2px;
+}
+header h6{
+	color: #F53DD9;
+	font-family: arial;
+	font-size: 0.6em;
+	padding: 2px;
+}
+header h6{
+	color: #F53DD9;
+	font-family: arial;
+	font-size: 0.6em;
+	padding: 2px;
+}
+
+header #menu{
+	background: #f1f1f1;
+	width: 640px;
+	height: 105px;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+}
+header nav li{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+}
+nav ul a{
+	color: #fff;
+	font-family: arial;
+	font-size: 1.4em;
+	background:  #F53DD9;
+	padding: 4px 15px;
+	border-radius: 5px 0px 5px 0px;
+	border:1px solid #991512;
+}
+	
+/*para cuando pase el mouse sobre cada opción del menu*/
+nav ul a:hover{
+	color: #fff;
+	font-family: arial;
+	font-size: 1.4em;
+	background: #000;
+	padding: 4px 15px;
+	border-radius: 5px 0px 5px 0px;
+	border:1px dashed #991512;
+}
+
+
+#banner{
+
+	background: #F53DD9;
+	height: 350px;
+	
+}
+#noticias{
+	background: #fff;
+	height: 230px;
+	width: 760px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-align: center;	
+}
+#tienda{
+	background: #fff;
+	height: 570px;
+	width: 760px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+#marcas{
+	background: #fff;
+	height: 110px;
+	width: 780px;
+}
+
+footer{
+	background: #F53DD9;
+	width: 780px;
+	height: 55px;
+	padding-top: 15px;
+}
+footer p{
+	font-family: arial;
+	font-size: 9px;
+	text-align: center;
+}
+
+#noticias #noticia1{
+	background: #fff;
+	width: 250px;
+	height: 215px;
+	display: inline-block;
+	vertical-align: top;
+}
+#noticias #noticia2{
+	background: #fff;
+	width: 250px;
+	height: 215px;
+	display: inline-block;
+	vertical-align: top;
+}
+#noticias #noticia3{
+	background: #fff;
+	width: 250px;
+	height: 215px;
+	display: inline-block;
+	vertical-align: top;
+}
+.espacio{
+	max-width: 100%;
+	width: 760%;
+	height: 2px;
+	
+}
+#tienda #producto1{
+
+	background: #fff;
+	width: 250px;
+	height: 220px;
+	display: inline-block;
+	vertical-align: top;
+}
+#tienda #producto2{
+
+	background: #fff;
+	width: 250px;
+	height: 215px;
+	display: inline-block;
+	vertical-align: top;
+}
+#tienda #producto3{
+
+	background: #fff;
+	width: 250px;
+	height: 215px;
+	display: inline-block;
+	vertical-align: top;
+}
+
